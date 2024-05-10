@@ -1,4 +1,1 @@
-const intersection = (a, b) => {
-  const s = new Set(b);
-  return a.filter((x) => s.has(x));
-};
+const sample = (arr) => arr[Math.floor(Math.random() * arr.length)];
